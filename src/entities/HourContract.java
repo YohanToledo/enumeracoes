@@ -1,8 +1,8 @@
 package entities;
 
-import java.util.Date; 
+import java.util.Date;  
 
-import entities.enums.WorkerLevel;
+
 
 public class HourContract {
 

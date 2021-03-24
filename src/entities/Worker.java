@@ -17,10 +17,10 @@ public class Worker {
 
 	
 	
-	public Worker() {
+	public Worker(String workerName, String workerLevel, double baseSalary2, String departmentName) {
 	}
 
-	public Worker(String nae, WorkerLevel level, Double baseSalary, String name, Department department) {
+	public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
 		this.name = name;
 		this.level = level;
 		this.baseSalary = baseSalary;
@@ -64,16 +64,7 @@ public class Worker {
 	}
 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 	public void addContract(HourContract contract) {
 		contracts.add(contract);
@@ -100,23 +91,5 @@ public class Worker {
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 }
